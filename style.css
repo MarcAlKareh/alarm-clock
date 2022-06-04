@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  font-family: "Radio Canada", sans-serif;
+}
+
+.timer {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid #fff;
+}
+
+.timer input {
+  height: 50px;
+  width: 130px;
+  border: none;
+  border-radius: 100vw;
+  text-align: center;
+  font-size: 20px;
+}
+
+.timer button {
+  background-color: #2f9e44;
+  color: #fff;
+  border: none;
+  border-radius: 100vw;
+  padding: 17px 35px;
+  cursor: pointer;
+  font-size: 20px;
+}
