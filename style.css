@@ -6,18 +6,22 @@
 
 body {
   background-color: #000;
+  color: #fff;
   font-family: "Radio Canada", sans-serif;
+  display: grid;
+  place-items: center;
 }
 
-.timer {
+.timer-form {
+  margin-top: 100px;
   width: 30%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 2px solid #fff;
+  margin-bottom: 70px;
 }
 
-.timer input {
+.timer-form input {
   height: 50px;
   width: 130px;
   border: none;
@@ -26,12 +30,23 @@ body {
   font-size: 20px;
 }
 
-.timer button {
+.timer-form button {
   background-color: #2f9e44;
-  color: #fff;
+  color: inherit;
   border: none;
   border-radius: 100vw;
   padding: 17px 35px;
   cursor: pointer;
   font-size: 20px;
+}
+
+.timer {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 100px 90px;
+  font-size: 40px;
+  background-color: inherit;
+  margin-left: 20px;
+  color: inherit;
+  cursor: pointer;
 }
